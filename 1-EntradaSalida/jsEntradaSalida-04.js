@@ -1,9 +1,18 @@
 /* 
+Maquez, Paloma Lara
 Debemos lograr tomar un dato por 'PROMPT' 
 y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
 function mostrar()
 {
-	alert("ok");
+	let nombre;
+	
+	let mensaje;
+	
+	nombre = prompt("Ingresa tu nombre", "Paloma Maquez");
+    
+	mensaje="su nombre es: "+nombre;
+
+	document.getElementById('txtIdNombre').value=mensaje;
 }
 
