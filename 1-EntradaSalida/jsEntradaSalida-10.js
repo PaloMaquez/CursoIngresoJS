@@ -4,21 +4,22 @@ Debemos lograr tomar el importe por ID.
 Transformarlo a entero (parseInt), luego
 mostrar el importe con un Descuento del 25 %
 en el cuadro de texto "RESULTADO"*/
-function mostrarAumento()
-{
-	let importe;
-	let descuento;
-	let resultado;
 
-	importe=document.getElementById('txtIdImporte').value;
-	importe=parseInt(importe);
+// function mostrarAumento()
+// {
+// 	let importe;
+// 	let descuento;
+// 	let resultado;
 
-	descuento=importe * 25 / 100;
+// 	importe=document.getElementById('txtIdImporte').value;
+// 	importe=parseInt(importe);
 
-	resultado=importe-descuento;
+// 	descuento=importe * 25 / 100;
+
+// 	resultado=importe-descuento;
 	
-	document.getElementById('txtIdResultado').value=resultado;	
-}
+// 	document.getElementById('txtIdResultado').value=resultado;	
+// }
 
 
 
@@ -27,9 +28,24 @@ Maquez, Paloma Lara
 10 BIS,
 Debemos lograr tomar el importe por ID.
 Transformarlo a entero (parseInt), luego
-mostrar el importe con un Descuento del 25 %
+mostrar el importe con un Descuento del %
 en el cuadro de texto "RESULTADO"*/
 function mostrarAumento()
 {
-	
+	let importe;
+	let porcentaje;
+	let descuento;
+	let resultado;
+
+	importe=document.getElementById('txtIdImporte').value;
+	importe=parseInt(importe);
+
+	porcentaje=prompt("Ingrese el Porcentaje de Descuento Requerido");
+
+	descuento=importe*porcentaje/100;
+
+	resultado=importe-descuento;
+
+	document.getElementById('txtIdResultado').value=resultado;
+
 }
