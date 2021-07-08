@@ -11,7 +11,7 @@ function mostrar()
 	
 	nombre = prompt("Ingresa tu nombre", "Paloma Maquez");
     
-	mensaje="su nombre es: "+nombre;
+	mensaje="Su nombre es: "+nombre;
 
 	document.getElementById('txtIdNombre').value=mensaje;
 }
