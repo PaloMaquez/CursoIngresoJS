@@ -6,7 +6,6 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 function mostrar()
 {
 	let nombre;
-	
 	let mensaje;
 	
 	nombre = prompt("Ingresa tu nombre", "Paloma Maquez");

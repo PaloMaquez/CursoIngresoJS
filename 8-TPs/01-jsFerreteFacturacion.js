@@ -5,7 +5,18 @@ C.	ingresar tres precios de productos  y mostrar precio final (más IVA 21%).
 */
 function Sumar () 
 {
-	
+	let productoUno
+    let productoDos
+    let productoTres
+    let suma 
+    
+    productoUno=
+
+
+
+
+
+
 }
 function Promedio () 
 {

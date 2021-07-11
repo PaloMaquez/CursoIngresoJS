@@ -15,8 +15,4 @@ function mostrar()
 }
 
 
-
-
 	// nombreIngresado=txtIdNombre.value; otra manera de hacerlo
-
-//document(el documento html).getElementById ('nombre de ID").value
