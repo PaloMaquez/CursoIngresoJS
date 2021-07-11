@@ -25,20 +25,20 @@ function sumar()
 
 function restar()
 {
-	let numero1
-	let numero2
-	let resultado
-	let mensajeSalida
+	let numero1;
+	let numero2;
+	let resultado;
+	let mensajeSalida;
 
 	numero1=document.getElementById('txtIdNumeroUno').value;
 	numero1=parseInt(numero1);
 
-	document.getElementById('txtIdNumeroDos').value;
-	segundoNumero=parseInt(segundoNumero);
+	numero2=document.getElementById('txtIdNumeroDos').value;
+	numero2=parseInt(numero2);
 
-	resultado=numero1-numero2;
+	resultado= numero1 - numero2;
 
-	mensajeSalida="El resultado de la cuenta es: " +resultado;
+	mensajeSalida="El resultado de la cuenta es: "+resultado;
 
 	alert(mensajeSalida);
 }
@@ -54,7 +54,7 @@ function multiplicar()
 	primerNumero=parseInt(primerNumero);
 
 	segundoNumero=document.getElementById('txtIdNumeroDos').value;
-	segundoNumero=parseInt(segundoNumero);;
+	segundoNumero=parseInt(segundoNumero);
 
 	resultado=primerNumero * segundoNumero;
 
