@@ -5,10 +5,21 @@ function mostrar()
 	let edad;
 
 	edad=document.getElementById('txtIdEdad').value;
-	edad=parseInt(edad)
+	edad=parseInt(edad);
 
-	if (edad>12 && edad<18){
-		alert("Adolescente");
+	if(edad<18)
+	{
+		if(edad>12)
+		{
+			alert("Es adolescente");
+		}
 	}
-	//tomo la edad  
-}//FIN DE LA FUNCIÓN
+
+
+/*
+	if (edad>12 && edad<18)
+	{
+		alert("Es adolescente");
+	} 
+}
+*/

@@ -8,7 +8,7 @@ function mostrar()
 	edad=parseInt(edad);
 
 	if (edad==15)
-	//tomo la edad  
-	alert("niña bonita");
-
-}//FIN DE LA FUNCIÓN
+	{ 
+		alert("niña bonita");
+    }
+}

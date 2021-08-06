@@ -1,4 +1,6 @@
-/*Al ingresar una edad menor a 18 años y un estado civil distinto a "Soltero",
+/*
+Maquez, Paloma Lara
+7 -Al ingresar una edad menor a 18 años y un estado civil distinto a "Soltero",
 mostrar el siguiente mensaje: 'Es muy pequeño para NO ser soltero.' */
 function mostrar()
 {	
@@ -10,8 +12,8 @@ function mostrar()
 
 	estadoCivil=document.getElementById('estadoCivil').value;
 
-	if(edad<19 && estadoCivil!="Soltero"){
+	if(edad<19 && estadoCivil != "Soltero")
+	{
 		alert("Es muy pequeño para NO ser soltero.")
 	}
-	//tomo la edad  
-}//FIN DE LA FUNCIÓN
+}
