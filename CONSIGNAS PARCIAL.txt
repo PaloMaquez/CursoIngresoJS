@@ -1,0 +1,46 @@
+Ejercicio 1:
+
+Se necesita llevar el registro de un vacunatorio. Para ello se podrá registrar los datos de las personas vacunadas mientras el usuario quiera.
+De cada vacunado se solicita:
+-nombre (entre 3 y 10 caracteres)
+-edad ( mayor o igual a 12)
+-vacuna (“rusa”, “china”, “americana”)
+Si la edad esta entre 12 y 17 años ambos incluidos solo se permite la vacuna americana
+-dosis (“p” en caso de ser la primer dosis o “s” en caso de ser la segunda dosis)
+-sexo( “f” o “m” )
+Informar:
+a- Promedio de edad de los que se vacunaron con la china
+b- Nombre y vacuna de la hombre con más joven
+c- De las personas que recibieron la vacuna americana que porcentaje son menores de edad
+d- Porcentaje de los que están vacunados con 1 dosis sobre el total de vacunados
+e- Vacuna mas inoculada
+
+Ejercicio 2:
+
+El centro de hisopado de Ezeiza recibe una tripulación de 8 personas.
+Al ser hisopadas se ingresan sus datos en la aplicación:
+-nacionalidad ("argentina", "extranjero")
+-resultado("positivo", "negativo")
+-edad(entre 18 y 65)
+-cepa("delta", "alfa", "beta", "ninguna")
+Para poder ingresar ninguna el resultado debe ser negativo
+Luego del ingreso informar:
+a- Porcentaje de positivos
+b- Porcentaje de negativos
+c- Cuál es la cepa menos encontrada
+d- Edad del menor argentino contagiado
+e- Cantidad de personas extranjeras contagiadas con la delta
+
+Ejercicio 3
+
+Llegan vuelos con vacunas de distintos lugares del mundo
+Mientras el usuario quiera se debe registrar de cada vuelo:
+-Origen (“Oriente”, “Occidente”, “Secreto”)
+-Cantidad de vacunas (entre 500000 y 2500000)
+-Costo del vuelo (entre 1 millón y 5 millones de pesos)
+Informar:
+a- El origen que envió menor cantidad de vacunas
+b- El promedio por vuelo de vacunas llegadas de Occidente
+c- El total sin descuentos a pagar por los gastos de los viajes
+d- Si en total se recibieron mas de 10 millones de vacunas se hace un descuento de 25%, Si se recibieron entre 5 y 8 millones el descuento es del 15% con menor cantidad no hay descuento.
+Informar si hubo descuento de cuanto fue y el importe final con descuento
